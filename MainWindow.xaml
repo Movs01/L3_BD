@@ -1,0 +1,15 @@
+﻿<Window x:Class="L3_BD.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:L3_BD"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="1000">
+    <Grid>
+        <TextBox x:Name="SerializatioRichTextBox" Width="330" Height="300" Margin="125,60,545,224" FontSize="15"></TextBox>
+        <Button Name="SerializationButton" Click="SerializationButton_Click" Width="200" Height="50" FontSize="20" Margin="190,416,610,118" >В формате JSON</Button>
+        <Button x:Name="DeserializationButton" Click="DeserializationButton_Click"  Width="200" Height="50" FontSize="20" Margin="660,416,140,118" Content="Deserialization" />
+        <TextBox x:Name="DeserializationTextBox" Width="330" Height="300" Margin="595,60,75,224" FontSize="15"/>
+    </Grid>
+</Window>
